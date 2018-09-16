@@ -1,0 +1,8 @@
+#vim runtime
+vim81
+
+#vim plugins
+vimfiles*
+
+#vim info (auto generated)
+_viminfo
