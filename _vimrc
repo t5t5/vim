@@ -148,3 +148,5 @@ Plug 't5t5/comments.vim'
 call plug#end()
 
 colorscheme oceandeep
+
+autocmd BufNewFile,BufRead *.bat,*.cmd source $HOME\vimfiles\indent\bat.vim
