@@ -57,8 +57,8 @@ set cindent " ci - отступы в стиле С
 set smartindent " Умные отступы (например, автоотступ после {)
 "--------------------------------------------------------------------------------
 
-
-set guifont=courier_new:h10:cRUSSIAN
+"Настройка шрифтов
+set guifont=source_code_pro:h11:cRUSSIAN,courier_new:h11:cRUSSIAN
 
 "--------------------------------------------------------------------------------
 "НАСТРОЙКИ ПЕРЕКЛЮЧЕНИЯ РАСКЛАДОК КЛАВИАТУРЫ
@@ -82,7 +82,6 @@ imap <silent> <C-F> <C-^>X<Esc>:call MyKeyMapHighlight()<CR>a<C-H>
 nmap <silent> <C-F> a<C-^><Esc>:call MyKeyMapHighlight()<CR>
 vmap <silent> <C-F> <Esc>a<C-^><Esc>:call MyKeyMapHighlight()<CR>gv
 "--------------------------------------------------------------------------------
-
 
 map <TAB> <ESC>%v%
 map <F6> :tabnew<CR>
