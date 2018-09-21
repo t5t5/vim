@@ -83,6 +83,12 @@ nmap <silent> <C-F> a<C-^><Esc>:call MyKeyMapHighlight()<CR>
 vmap <silent> <C-F> <Esc>a<C-^><Esc>:call MyKeyMapHighlight()<CR>gv
 "--------------------------------------------------------------------------------
 
+" Используем символы для непечатаемых символов
+set listchars=eol:⮠,tab:→→,trail:~,extends:>,precedes:<,space:·
+" Цвета для непечатаемых символов
+"highlight NonText guifg=#4a4a59
+"highlight SpecialKey guifg=#4a4a59
+
 map <TAB> <ESC>%v%
 map <F6> :tabnew<CR>
 map <F9> :tabclose<CR>
