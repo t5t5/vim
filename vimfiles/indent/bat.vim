@@ -2,3 +2,5 @@
 
 setlocal expandtab
 setlocal smarttab
+
+setlocal list
