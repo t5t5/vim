@@ -2,7 +2,7 @@
 lan mes ru_RU.UTF-8
 
 set nocompatible
-set guioptions=aegirLt
+
 "source $VIMRUNTIME/vimrc_example.vim
 "source $VIMRUNTIME/mswin.vim
 set backspace=indent,eol,start whichwrap+=<,>,[,]
@@ -14,6 +14,8 @@ set nowrap " (no)wrap - динамический (не)перенос длинн
 set mouse=a " включает поддержку мыши при работе в терминале (без GUI)
 set mousehide " скрывать мышь в режиме ввода текста
 set t_Co=256 " использовать больше цветов в терминале
+set termguicolors
+set hlsearch " подсветка при поиске
 set statusline=%F%m%r%h%w\ [FF,FE,TE=%{&fileformat},%{&fileencoding},%{&encoding}\]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 syntax on " включить подсветку синтаксиса
 set laststatus=2
@@ -44,7 +46,7 @@ if has("multi_byte")
   endif
   set encoding=utf-8
   setglobal fileencoding=utf-8
-  setglobal bomb
+  setglobal nobomb
   set fileencodings=ucs-bom,utf-8,cp1251,latin1
 endif
 "--------------------------------------------------------------------------------
