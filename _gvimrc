@@ -25,10 +25,16 @@ set pastetoggle=
 
 
 "" Автоматически перечитывать конфигурацию VIM после сохранения
-autocmd! bufwritepost $MYVIMRC source $MYVIMRC
+autocmd! bufwritepost $MYGVIMRC source $MYGVIMRC
 
-set clipboard=unnamed " Window - во избежание лишней путаницы использовать системный буфер обмена вместо буфера Vim
-"set clipboard=unnamedplus " linux - во избежание лишней путаницы использовать системный буфер обмена вместо буфера Vim
+" во избежание лишней путаницы использовать системный буфер обмена вместо буфера Vim
+if has("win32")
+  " window
+  set clipboard=unnamed
+else
+  " linux
+  set clipboard=unnamedplus
+endif
 
 "Нумеровать строки не относительно начала файла, а относительно текущего положения курсора. Удобно при выполнении команд, для которых нужно считать строки. Включается командой
 "set relativenumber
