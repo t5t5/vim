@@ -6,4 +6,4 @@ if "%ConEmuHooks%" == "Enabled" (
 ) else (
     set add_arg=
 )
-"%HOME%vim90\vim.exe" %add_arg% %*
+"%HOME%vim91\vim.exe" %add_arg% %*
