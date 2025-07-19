@@ -1,2 +1,0 @@
-Брать бинари Vim'а здесь:
-https://github.com/vim/vim-win32-installer

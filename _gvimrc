@@ -15,5 +15,8 @@ set guioptions=aegirLt
 " Автоматически перечитывать конфигурацию VIM после сохранения
 autocmd! bufwritepost $MYGVIMRC source $MYGVIMRC
 
-"Настройка шрифтов
+" Настройка шрифтов
 set guifont=source_code_pro:h10:cRUSSIAN,courier_new:h11:cRUSSIAN
+
+" Отключение звуков в gvim
+autocmd GUIEnter * set vb t_vb=

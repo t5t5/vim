@@ -23,3 +23,11 @@ https://github.com/lervag/wiki
 helps editing xml
 https://github.com/othree/xml.vim
 
+### Стоит попробовать:
+
+The NERDTree
+https://github.com/preservim/nerdtree
+
+### Устаревшие плагины, которыми пользовался:
+
+TagList + ctags
