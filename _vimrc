@@ -36,6 +36,7 @@ Plug 'lervag/wiki'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'othree/xml.vim'
 Plug 't5t5/comments.vim'
+Plug 'aklt/plantuml-syntax'
 call plug#end()
 
 " Применение темы
