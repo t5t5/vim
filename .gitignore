@@ -4,7 +4,7 @@ vim90
 vim91
 
 #vim plugins
-vimfiles*
+vimfiles/plugged/*
 
 #vim info (auto generated)
 _viminfo
